@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "name": "Sample Looping Macro",
+    "created": "2025-09-12"
+  },
+  "events": [
+    {
+      "t": 0.0,
+      "type": "mouse_move",
+      "x": 200,
+      "y": 200
+    },
+    {
+      "t": 0.1,
+      "type": "mouse_scroll",
+      "dx": 0,
+      "dy": -3
+    },
+    {
+      "t": 0.3,
+      "type": "mouse_scroll",
+      "dx": 0,
+      "dy": -3
+    },
+    {
+      "t": 0.6,
+      "type": "mouse_scroll",
+      "dx": 0,
+      "dy": -3
+    }
+  ]
+}

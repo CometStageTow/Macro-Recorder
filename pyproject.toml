@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "macrorecorder"
+version = "1.0.0"
+description = "Cross‑platform keyboard & mouse macro recorder/playback GUI (Tkinter + pynput)."
+authors = [{ name = "Sean Parker" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+dependencies = [
+  "pynput>=1.7.7",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Utilities",
+  "Topic :: Software Development :: User Interfaces",
+]
+
+[project.scripts]
+macrorecorder = "macrorecorder.app:run"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/macrorecorder"]

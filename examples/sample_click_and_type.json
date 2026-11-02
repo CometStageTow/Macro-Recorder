@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "name": "Sample Click + Type",
+    "created": "2025-09-12"
+  },
+  "events": [
+    {
+      "t": 0.0,
+      "type": "mouse_move",
+      "x": 100,
+      "y": 100
+    },
+    {
+      "t": 0.1,
+      "type": "mouse_click",
+      "button": "left",
+      "pressed": true
+    },
+    {
+      "t": 0.2,
+      "type": "mouse_click",
+      "button": "left",
+      "pressed": false
+    },
+    {
+      "t": 0.4,
+      "type": "key_press",
+      "key": "h"
+    },
+    {
+      "t": 0.45,
+      "type": "key_release",
+      "key": "h"
+    },
+    {
+      "t": 0.5,
+      "type": "key_press",
+      "key": "i"
+    },
+    {
+      "t": 0.55,
+      "type": "key_release",
+      "key": "i"
+    }
+  ]
+}

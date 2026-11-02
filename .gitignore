@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+
+# PyInstaller
+*.spec
+
+# OS
+.DS_Store
+Thumbs.db
